@@ -72,6 +72,7 @@ jQuery.fn.roundabout = function( options ) {
             top: 0,
             width : childWidth,
             left : (parentWidth/2) - (childWidth/2),
+            opacity: 1,
             zIndex : 999
         }
 
@@ -79,6 +80,7 @@ jQuery.fn.roundabout = function( options ) {
             top: '15%',
             left : 0,
             width : childWidth/2,
+            opacity: 0.5,
             zIndex : itemPos.center.zIndex - 1
         }
 
@@ -86,6 +88,7 @@ jQuery.fn.roundabout = function( options ) {
             top: '15%',
             left : parentWidth - (childWidth/2),
             width : childWidth/2,
+            opacity: 0.5,
             zIndex : itemPos.center.zIndex - 2
         }
 
@@ -93,6 +96,7 @@ jQuery.fn.roundabout = function( options ) {
             left : parentWidth/2 - 20,
             width : 40,
             top: '30%',
+            opacity: 0,
             zIndex : itemPos.center.zIndex - 3
         }
 
